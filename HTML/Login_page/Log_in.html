@@ -2,24 +2,20 @@
 <html lang = "eng">
     <head>
         <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
     </head><center>
     <body>
-        <header>
-            <h1 align = "center"><b>Log In</b></h1><br>
-        <form >
-            <img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" width="100px" height="100px"><br><br>
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="namebox" placeholder="Enter Your Name"><br><br>
-            <label for="name">Email: </label>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
-            <label for="name">Password: </label>
-            <input type="password" name="pass" id="pass" placeholder="Enter Your Password"><br><br>
-            <input type="submit" name="submit" value="Login"><br><br>
-            <input type="checkbox" name="check"><label for="text">Remember me</label><br>
-            <a href="#">Forgot password?</a><br>
-            
-        </form>
-    
-        </header>
+        <div class="mainbox">
+            <h1>Log In</h1><br>
+            <form >
+                <input id="username" type="text" name="name"  placeholder="Username"><br><br>
+                <input id="email" type="email" name="email"  placeholder="Email"><br><br>
+                <input id="pass" type="password" name="pass"  placeholder="Password"><br><br>
+                <input type="submit" id="login" name="submit" value="Login"><br><br>
+                <input type="checkbox" name="check"><label for="text">Remember me</label><br>
+                <a href="#">Forgot password?</a><br>
+        
+            </form>
+    </div>
     </body></center>
 </html>
