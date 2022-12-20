@@ -1,4 +1,4 @@
-word = input("Enter a number:")
+word = input("Enter palindrome:")
 wrd = ' '.join(word)
 result=wrd.split()
 x =[]
