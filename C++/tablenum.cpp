@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+
    int num;
    cout << "Type a number to display it's table:::" <<endl;
    cin>> num;
