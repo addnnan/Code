@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void finder(int a[5],int num)
 {
     int is = 0;
