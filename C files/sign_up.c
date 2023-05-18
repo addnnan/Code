@@ -54,7 +54,10 @@ int main(void)
             
         }
         
-        
+    }
+    else
+    {
+        printf("-->Spelling error.\n");
     }
 
     return 0;
