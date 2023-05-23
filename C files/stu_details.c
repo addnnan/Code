@@ -7,12 +7,12 @@ struct student
   int roll_no;
   char name[10];
   float per;
-
+  int marks[20];
 };
 
 int main()
 {
-  int n, marks[20];
+  int n;
   int sum;
   struct student x[10];
   printf("Enter the number of students.\n");
@@ -26,15 +26,15 @@ int main()
 
     for (int j = 0; j<6;j++)
     {
-      scanf("%d",&marks[j]);
-      sum += marks[j];
+      scanf("%d",&x[i].marks[j]);
+      sum += x[i].marks[j];
     }
   x[i].per = ((float)sum/600)*100;
   }
 
   for (int i = 0;i<n;i++){
     printf("Student-%d details: \n",i+1);
-    printf("* Name: %s\n* Roll Number: %d\n* Percentage: %.1f \n\n",x[i].name,x[i].roll_no,x[i].per);
+    printf("* Name: %s\n* Roll Number: %d\n* Percentage: %.1f%% \n\n",x[i].name,x[i].roll_no,x[i].per);
   }
 return 0;
 }
