@@ -33,7 +33,7 @@ int main()
   }
 
   for (int i = 0;i<n;i++){
-    printf("Student-%d details: \n",i+1);
+    printf("\nStudent-%d details: \n``````````````````\n",i+1);
     printf("* Name: %s\n* Roll Number: %d\n* Percentage: %.1f%% \n\n",x[i].name,x[i].roll_no,x[i].per);
   }
 return 0;
@@ -58,7 +58,7 @@ Enter the marks in 6 subjects.
     Student-1 details: 
     * Name: abc
     * Roll Number: 1
-    * Percentage: 100.0
+    * Percentage: 100.0%
 ----------------------------------------------
 */
 
