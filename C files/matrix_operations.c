@@ -39,7 +39,7 @@ int main()
         }
         printf("\n");
     }
-    printf("And the 2nd matrix you typed is:\n");
+    printf("\nAnd the 2nd matrix you typed is:\n");
     for (int i=0;i<m;i++){
         for (int j=0;j<n;j++)
         {
@@ -48,7 +48,7 @@ int main()
         }
         printf("\n");
     }
-    printf("Now type the matrix operation\n Type( + )for sum & Type( - )for subtraction.\n");
+    printf("\nNow type the matrix operation\n Type( + )for sum & Type( - )for subtraction.\n");
     scanf("%s",opr);
     int result = strcmp(opr,sum);
     int result2 = strcmp(opr,sub);
@@ -101,3 +101,50 @@ int main()
     }
 
 }
+/*
+OUTPT:
+Enter the size of 1st matrix:
+3
+3
+Now enter 9 no. of elements:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Enter the size of 2nd matrix:
+3
+3
+Now enter 9 no. of elements:
+9
+8
+7
+6
+5
+4
+3
+2
+1
+The 1st matrix you typed is:
+[ 1 ][ 2 ][ 3 ]
+[ 4 ][ 5 ][ 6 ]
+[ 7 ][ 8 ][ 9 ]
+
+And the 2nd matrix you typed is:
+[ 9 ][ 8 ][ 7 ]
+[ 6 ][ 5 ][ 4 ]
+[ 3 ][ 2 ][ 1 ]
+
+Now type the matrix operation
+ Type( + )for sum & Type( - )for subtraction.
++
+Addition of Two matrix is:
+[10 ][10 ][10 ]
+[10 ][10 ][10 ]
+[10 ][10 ][10 ]
+
+*/
